@@ -1,4 +1,4 @@
-# Purple Lab — Splunk Detection Validation with the B33KEEP3R MCP Agent
+# Purple Lab — Splunk Detection Validation with the MCP Agent
 
 I built the B33KEEP3R agent to investigate Windows events in Splunk from a local desktop interface. I tested it against two alerts I had already examined with manual SPL and local Qwen triage. One alert named Notepad in a Rundll32 command line. The other recorded a PowerShell request to upload a ZIP file. In both cases, I wanted to see what a second Windows event could establish.
 
