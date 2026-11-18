@@ -2,18 +2,25 @@
 
 I built the B33KEEP3R agent to investigate Windows events in Splunk from a local desktop interface. I tested it against two alerts I had already examined with manual SPL and local Qwen triage. One alert named Notepad in a Rundll32 command line. The other recorded a PowerShell request to upload a ZIP file. In both cases, I wanted to see what a second Windows event could establish.
 
-![B33KEEP3R Splunk MCP investigating PowerShell RecordID 151208 on WIN10-LEGACY, with two evidence records returned](assets/b33keep3r-splunk-mcp-agent.png)
-
-*The PowerShell investigation returned a script block and a network connection for the same process. Page 19 shows this view of the agent. Page 20 lists the fields from both records.*
-
 ## Reports
 
-[English technical report (PDF)](reports/Purple_Lab_Splunk_Local_AI_Validation_Report_EN.pdf) · [Tehnički izveštaj na srpskom (PDF)](reports/Purple_Lab_Splunk_Local_AI_Validation_Report_SRB.pdf)
+**Full technical report (PDF)**
 
-Page 12 compares all three investigation methods. Pages 14 and 19 show the agent window alongside the underlying Windows evidence. The two original HTML reports can also be downloaded and opened locally.
+- [English · 23 pages](./Purple_Lab_Splunk_Local_AI_Validation_Report_EN.pdf)
+- [Srpski · 23 strane](./Purple_Lab_Splunk_Local_AI_Validation_Report_SRB.pdf)
 
-- [S01 — Rundll32 process investigation (HTML)](reports/S01_Rundll32.html)
-- [S02 — PowerShell HTTP POST investigation (HTML)](reports/S02_PowerShell_HTTP_POST.html)
+Page 12 compares the three investigation methods. Pages 14 and 19 show the B33KEEP3R agent investigating each case.
+
+**Interactive agent reports (HTML)**
+
+- [S01 · Did Rundll32 start Notepad?](./S01_Rundll32.html)
+- [S02 · What did PowerShell record about the HTTP POST?](./S02_PowerShell_HTTP_POST.html)
+
+For the interactive timeline and evidence filters, follow an HTML link, select **Download raw file** on GitHub and open the saved file in your browser.
+
+![B33KEEP3R Splunk MCP investigating PowerShell RecordID 151208 on WIN10-LEGACY, with two evidence records returned](./b33keep3r-splunk-mcp-agent.png)
+
+*The PowerShell investigation returned a script block and a network connection for the same process. Page 19 shows this view of the agent. Page 20 lists the fields from both records.*
 
 ## What each investigation found
 
