@@ -13,8 +13,8 @@ Page 12 compares the three investigation methods. Pages 14 and 19 show the B33KE
 
 **Interactive agent reports (HTML)**
 
-- [S01 · Did Rundll32 start Notepad?](./S01_Rundll32.html)
-- [S02 · What did PowerShell record about the HTTP POST?](./S02_PowerShell_HTTP_POST.html)
+- [S01 · Did Rundll32 start Notepad?](./S01_Rundll32.pdf)
+- [S02 · What did PowerShell record about the HTTP POST?](./S02_PowerShell_HTTP_POST.pdf)
 
 For the interactive timeline and evidence filters, follow an HTML link, select **Download raw file** on GitHub and open the saved file in your browser.
 
